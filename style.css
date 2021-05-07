@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+#navbarSection{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+}
+
+.nav{
+    background-color: gray;
+    border: solid black;
+    border-radius: 0px 0px 5px 5px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#play{
+    background-color: darkgray;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#pointSection{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+}
